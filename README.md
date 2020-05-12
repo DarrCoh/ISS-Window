@@ -106,17 +106,17 @@ done
 ---
 
 ## Features
- - Feature one
+ - Plug and Play
  
- - Feature two
+ - No need to touch anything after a power outage
  
- - Feature three
+ - No command line visible even after a stream failure
 
 ---
 
 ## Known Issues
 
-- Sometimes, when a stream fail to display, the background show up until the “sleep” that is between streams is over. 
+- When a stream fail to display, the background show up until the “sleep” that is between the streams is over. 
 
 ## Help
 
