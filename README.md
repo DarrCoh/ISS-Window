@@ -61,7 +61,7 @@ $ sudo apt-get -y install fbi
 Download the background.png file.
 > If you are running this project with a RaspberryPi, put the background in **/home/pi/**.
 
-### 3/3 Script
+### 3/3 Boot-Script
 
 We are going to make a script that will launch during the boot of our single board computer.
 Create the script "iss-streamer" and put this code in your home directory :
