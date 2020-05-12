@@ -56,7 +56,6 @@ $ sudo apt-get install omxplayer
 $ sudo apt-get update
 $ sudo apt-get -y install fbi
 ```
----
 
 ### 3/3 Script
 
