@@ -35,7 +35,7 @@ $ sudo apt-get update
 $ sudo apt-get upgrade
 ```
 
-- Streamlink
+- STREAMLINK
 > We will use it to grab the multiples live streams.
 ```shell
 $ sudo apt install streamlink
