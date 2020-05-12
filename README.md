@@ -1,4 +1,4 @@
-# WISSDOW PROJECT
+# ISS WINDOW PROJECT
 > A 7/7 - 24/24 multi–live stream from the International Space Station ( ISS ).
 
 ![](GIF.gif)
