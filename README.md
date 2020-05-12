@@ -4,13 +4,14 @@
 ![](GIF.gif)
 
 ## Table of Contents
-- [What you need - Hardware ](#What-you-need)
+- [Hardware ](#Hardware)
 - [Installation](#installation)
 - [Features](#features)
 - [Known issues](#known-issues)
 - [Help the project](#help)
 
 ## Hardware
+> What you need before starting this project
 - Single Board Computer
 > Used for this project : Raspberry Pi 2B
 - Screen
