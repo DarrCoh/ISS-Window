@@ -26,15 +26,13 @@
 
 > Easy to setup with a single board computer, takes about 6min to install. Brilliant !
 
-### 1/3 Update your single board computer  
+### 1/3 Update your single board computer and download the tools
 
 - In this example, I will use a Raspberry Pi running RaspbianOS.
 ```shell
 $ sudo apt-get update
 $ sudo apt-get upgrade
 ```
-
-### 2/3 Download tools
 
 - Streamlink
 > We will use it to grab the multiples live streams.
@@ -56,6 +54,8 @@ $ sudo apt-get install omxplayer
 $ sudo apt-get update
 $ sudo apt-get -y install fbi
 ```
+### 2/3 Setup the background
+
 
 ### 3/3 Script
 
