@@ -13,13 +13,13 @@
 ## Hardware
 > What you need before starting this project
 - Single Board Computer
-> Used for this project : Raspberry Pi 2B
+    - Used for this project : Raspberry Pi 2B
 - Screen
-> Used for this project : Raspberry Pi Touchscreen Display 7″
+    - Used for this project : Raspberry Pi Touchscreen Display 7″
 - Case
-> Used for this project : SmartiPi Touch V1
+    - Used for this project : SmartiPi Touch V1
 - Power Cable
-> Used for this project : Raspberry Pi Universal Power Supply
+    - Used for this project : Raspberry Pi Universal Power Supply
 - Speaker ( optional )
 
 ## Installation
