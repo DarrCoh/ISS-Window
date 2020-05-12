@@ -26,9 +26,10 @@
 
 > Easy to setup with a single board computer, takes about 6min to install. Brilliant !
 
-### 1/3 Update your single board computer and download the tools
+### 1/3 Download tools
 
-- In this example, I will use a Raspberry Pi running RaspbianOS.
+- Update your single board computer
+> In this example, I will use a Raspberry Pi running RaspbianOS.
 ```shell
 $ sudo apt-get update
 $ sudo apt-get upgrade
@@ -37,21 +38,18 @@ $ sudo apt-get upgrade
 - Streamlink
 > We will use it to grab the multiples live streams.
 ```shell
-$ sudo apt-get update
 $ sudo apt install streamlink
 ```
 
 - OMVXPLAYER
 > Player used with STREAMLINK, preferred to VLC for the better personalization.
 ```shell
-$ sudo apt-get update
 $ sudo apt-get install omxplayer
 ```
 
 - FBI
 > We will use it to display our custom NASA loading page that will show up when the device is booting and switching cameras.
 ```shell
-$ sudo apt-get update
 $ sudo apt-get -y install fbi
 ```
 ### 2/3 Setup the background
