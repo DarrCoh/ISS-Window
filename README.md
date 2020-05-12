@@ -1,10 +1,13 @@
+# WISSDOW PROJECT
+> A 7/7 - 24/24 multi–live stream from the International Space Station ( ISS ).
+
+![](GIF.gif)
+
 ## Table of Contents
 - [Installation](#installation)
 - [Features](#features)
 - [Known issues](#known-issues)
 - [Help the project](#help)
-
-![](GIF.gif)
 
 ## Installation
 
