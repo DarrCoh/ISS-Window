@@ -7,6 +7,7 @@
 - [Hardware ](#Hardware)
 - [Installation](#installation)
 - [Features](#features)
+- [Upcoming Features](#upcoming-features)
 - [Known issues](#known-issues)
 - [Help the project](#help)
 
