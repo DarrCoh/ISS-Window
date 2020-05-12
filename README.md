@@ -120,10 +120,10 @@ done
  
  ## Upcoming Features
  
- - Bring your device to life with the live audio conversation between Earth and the ISS astronaut ! 
+ - Bring your device to life, you will be able to listen to live conversations between Earth and the ISS astronauts !
  - Blinking leds when the ISS pass above your location !
  - Multiple background style and size for a better fit with your screen !
- - More features coming
+ - More features coming soon...
 
 ---
 
