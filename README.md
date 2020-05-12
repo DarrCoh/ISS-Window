@@ -24,7 +24,7 @@
 
 ## Installation
 Automatic install :
-Run the ISSetup.sh script. ( coming soon )
+Run the ISSetup.sh script ( coming soon )
 
 Manual install : 
 > Easy to setup with a single board computer, takes about 6min to install manually. Brilliant !
