@@ -70,7 +70,7 @@ Put this pre-made one :
 ```shell
 #!/bin/bash
 
-sudo fbi -T 1 --noverbose --fitwidth --autoup /home/pi/nasa.png
+sudo fbi -T 1 --noverbose --fitwidth --autoup /home/pi/background.png
 # Setting up the background “NASA” picture that will show up when the stream is either booting, or switching between the streams.
 
 while true
