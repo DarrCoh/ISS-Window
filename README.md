@@ -4,10 +4,22 @@
 ![](GIF.gif)
 
 ## Table of Contents
+- [What you need - Hardware ](#What-you-need)
 - [Installation](#installation)
 - [Features](#features)
 - [Known issues](#known-issues)
 - [Help the project](#help)
+
+## Hardware
+- Single Board Computer
+> Used for this project : Raspberry Pi 2B
+- Screen
+> Used for this project : Raspberry Pi Touchscreen Display 7″
+- Case
+> Used for this project : SmartiPi Touch V1
+- Power Cable
+> Used for this project : Raspberry Pi Universal Power Supply
+- Speaker ( optional )
 
 ## Installation
 
@@ -24,25 +36,31 @@ $ sudo apt-get upgrade
 ### 2/3 Download tools
 
 - Streamlink
+> We will use it to grab the multiples live streams.
 ```shell
 $ sudo apt-get update
 $ sudo apt install streamlink
 ```
 
 - OMVXPLAYER
+> Player used with STREAMLINK, preferred to VLC for the better personalization.
 ```shell
 $ sudo apt-get update
 $ sudo apt-get install omxplayer
 ```
 
 - FBI
+> We will use it to display our custom NASA loading page that will show up when the device is booting and switching cameras.
 ```shell
 $ sudo apt-get update
 $ sudo apt-get -y install fbi
 ```
---
+---
 
 ### 3/3 Script
+
+We are going to make a script that will launch during the boot of our single board computer. Put this pre-made one :
+> For a Raspberry Pi, edit the **rc.local** script and put this script in :
 
 ```shell
 #!/bin/bash
@@ -99,8 +117,7 @@ done
 
 ## Known Issues
 
-- First Issue
-- Second Issue
+- Sometimes, when a stream fail to display, the background show up until the “sleep” that is between streams is over. 
 
 ## Help
 
