@@ -23,8 +23,11 @@
 - Speaker ( optional )
 
 ## Installation
+Automatic install :
+Run the ISSetup.sh script. ( coming soon )
 
-> Easy to setup with a single board computer, takes about 6min to install. Brilliant !
+Manual install : 
+> Easy to setup with a single board computer, takes about 6min to install manually. Brilliant !
 
 ### 1/3 Download tools
 
@@ -38,7 +41,7 @@ $ sudo apt-get upgrade
 - STREAMLINK
 > We will use it to grab the multiples live streams.
 ```shell
-$ sudo apt install streamlink
+$ sudo apt-get install streamlink
 ```
 
 - OMVXPLAYER
@@ -111,12 +114,18 @@ done
  - No need to touch anything after a power outage
  
  - No command line visible even after a stream failure
+ 
+ ## Upcoming Features
+ 
+ - Bring your device to life with the live audio conversation between Earth and the ISS astronaut ! 
+ - Blinking leds when the ISS pass above your location !
+ - More features coming
 
 ---
 
 ## Known Issues
 
-- When a stream fail to display, the background show up until the “sleep” that is between the streams is over. 
+- When a stream fail to display, the background show up until the “sleep” (which is between the streams) is over. 
 
 ## Help
 
