@@ -63,9 +63,9 @@ Download the background.png file.
 
 ### 3/3 Script
 
-We are going to make a script that will launch during the boot of our single board computer. 
-Put this pre-made one :
-> For a Raspberry Pi, go to /etc and edit the **rc.local** script.
+We are going to make a script that will launch during the boot of our single board computer.
+Create the script "iss-streamer" and put this code in your home directory :
+> For a Raspberry Pi, put it in /home/pi
 
 ```shell
 #!/bin/bash
@@ -108,6 +108,17 @@ pkill omxplayer
 done
 
 ```
+
+Now that the script is created, we are going to call it in the boot script
+> For a Raspberry Pi, go to /etc and edit the **rc.local** script by putting this code in :
+
+```shell
+# start the ISS video stream
+sudo -u pi /home/pi/iss-streamer >/dev/null 2>&1 &
+Exit 0
+```
+
+**We are all set ! Reboot and enjoy your brand new virtual window!**
 
 ---
 
