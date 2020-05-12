@@ -64,7 +64,7 @@ Download the background.png file.
 
 We are going to make a script that will launch during the boot of our single board computer. 
 Put this pre-made one :
-> For a Raspberry Pi, go to //etc and edit the **rc.local** script.
+> For a Raspberry Pi, go to /etc and edit the **rc.local** script.
 
 ```shell
 #!/bin/bash
