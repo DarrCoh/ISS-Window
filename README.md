@@ -59,8 +59,9 @@ $ sudo apt-get -y install fbi
 
 ### 3/3 Script
 
-We are going to make a script that will launch during the boot of our single board computer. Put this pre-made one :
-> For a Raspberry Pi, edit the **rc.local** script and put this script in :
+We are going to make a script that will launch during the boot of our single board computer. 
+Put this pre-made one :
+> For a Raspberry Pi, edit the **rc.local** script.
 
 ```shell
 #!/bin/bash
