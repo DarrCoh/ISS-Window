@@ -57,6 +57,8 @@ $ sudo apt-get -y install fbi
 ```
 ### 2/3 Setup the background
 
+Download the background.png file.
+> If you are running this project with a RaspberryPi, put the background in **/home/pi/**.
 
 ### 3/3 Script
 
@@ -119,6 +121,7 @@ done
  
  - Bring your device to life with the live audio conversation between Earth and the ISS astronaut ! 
  - Blinking leds when the ISS pass above your location !
+ - Multiple background style and size for a better fit with your screen !
  - More features coming
 
 ---
