@@ -131,7 +131,8 @@ Exit 0
  
  ## Upcoming Features
  
- - Bring your device to life, you will be able to listen to live conversations between Earth and the ISS astronauts !
+ - Automatic screen size detection !
+ - Ability to isten to live conversations between Earth and the ISS astronauts !
  - Blinking leds when the ISS pass above your location !
  - Multiple background style and size for a better fit with your screen !
  - More features coming soon...
