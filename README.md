@@ -70,40 +70,40 @@ Create the script "iss-streamer" and put this code in your home directory :
 ```shell
 #!/bin/bash
 
-sudo fbi -T 1 --noverbose --fitwidth --autoup /home/pi/background.png
+sudo fbi -T 1 --noverbose --fitwidth --autoup /home/pi/nasa.png
 # Setting up the background “NASA” picture that will show up when the stream is either booting, or switching between the streams.
 
 while true
 # As it is always “TRUE”, the script will always try to start a stream, whatever happens.
 
 do
-streamlink --player omxplayer --fifo --player-args "--win \"0 0 800 480\" {filename}" https://www.youtube.com/watch?v=EEIk7gwjgIM 720p &
 # First stream start with OMXPLAYER, and arguments that will make the player fit the screen size properly.
 
-sleep 18
+streamlink --player omxplayer --fifo --player-args "--win \"0 0 800 480\" {filename}" https://www.youtube.com/watch?v=86YLFOog4GM&t=0s 720p &
+sleep 150
 # Wait few seconds before switching to the next stream.
-
 pkill omxplayer
 # Kill OMXPLAYER in order to start the next stream, as there is no proper “switch to the next stream” option with Livestreamer.
 
-streamlink --player omxplayer --fifo --player-args "--orientation 180 --win \"0 0 800 480\" {filename}"  http://www.ustream.tv/channel/iss-hdev-payload best &
+streamlink --player omxplayer --fifo --player-args "--orientation 180 --win \"0 0 800 480\" {filename}" http://www.ustream.tv/channel/iss-hdev-payload best &
 # Second stream start with OMXPLAYER, and arguments that will make the player fit the screen size properly and the rotation for a better viewing experience.
-
-sleep 18
+sleep 150
 # Wait few seconds before switching to the next stream.
-
 pkill omxplayer
-# Kill OMXPLAYER in order to start the next stream, as there is no proper “switch for next stream” option with Livestreamer.
+# Kill OMXPLAYER in order to start the next stream, as there is no proper “switch to the next stream” option with Livestreamer.
 
 streamlink --player omxplayer --fifo --player-args "--win \"0 0 800 480\" {filename}" http://www.ustream.tv/channel/live-iss-stream best &
 # Third stream start with OMXPLAYER, and arguments that will make the player fit the screen size properly.
-
-sleep 18
+sleep 150
 # Wait few seconds before switching to the next stream.
-
-
 pkill omxplayer
-# Kill OMXPLAYER in order to start the next stream, as there is no proper “switch for next stream” option with Livestreamer.
+# Kill OMXPLAYER in order to start the next stream, as there is no proper “switch to the next stream” option with Livestreamer.
+
+streamlink --player omxplayer --fifo --player-args "--win \"0 0 800 480\" {filename}" https://www.youtube.com/watch?v=21X5lGlDOfg 720p &
+sleep 150
+# Wait few seconds before switching to the next stream.
+pkill omxplayer
+# Kill OMXPLAYER in order to start the next stream, as there is no proper “switch to the next stream” option with Livestreamer.
 
 done
 
