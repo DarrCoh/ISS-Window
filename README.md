@@ -114,7 +114,7 @@ Now that the script is created, we are going to call it in the boot script
 
 ```shell
 # start the ISS video stream
-sudo -u pi /home/pi/iss-streamer >/dev/null 2>&1 &
+sudo -u pi /home/pi/iss-streamer
 Exit 0
 ```
 
