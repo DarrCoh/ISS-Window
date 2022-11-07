@@ -113,9 +113,13 @@ Now that the script is created, we are going to call it in the boot script
 > For a Raspberry Pi, go to /etc and edit the **rc.local** script by putting this code in :
 
 ```shell
+
+#!/bin/sh
+
 # start the ISS video stream
-sudo -u pi /home/pi/iss-streamer
-Exit 0
+bash /[PATH-TO-SCRIPT-FROM-ROOT]/scriptISS.sh
+exit 0
+
 ```
 
 **We are all set ! Reboot and enjoy your brand new virtual window!**
